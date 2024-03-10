@@ -1,13 +1,13 @@
 # Módulo 1 - Visão geral dos conceitos de nuvem
 
+## Seção 1: Introdução a computação em nuvem
+
 - **Definição de computação em Nuvem**
     - Computação em nuvem é a entrega sob demanda de poder computacional, banco de dados, armazenamento, aplicativos e outros recursos de TI pela Internet, com uma definição de preço conforme o uso.
-
 - **Infraestrutura como software**
     - A computação em nuvem nos permite pensar em nossa infraestrutura como software em vez de hardware.
     - Software como infraestrutura é mais flexível, pode mudar com mais rapidez, facilidade e economia do que as soluções de hardware.
     - Eliminam as tarefas monolíticas de trabalho pesado.
-    
 - **3 modelos principais de serviços em nuvem**
     - **IaaS (Infraestrutura como Serviço)**
         - Mais controle sobre os recursos de TI.
@@ -21,8 +21,7 @@
         - Menos controle sobre os recursos de TI
         - O SaaS, ou **Software como Serviço**, oferece aplicativos prontos para uso, hospedados na nuvem e acessíveis via navegador.
         - Os clientes não precisam instalar ou manter o software localmente; eles simplesmente acessam o aplicativo pela internet.
-        - Exemplos populares de SaaS incluem **Microsoft 365**, **Salesforce** e **Google Workspace**.
-    
+        - Exemplos populares de SaaS incluem **Microsoft 365**, **Salesforce** e **Google Workspace**
 - **Modelos de implantação de computação em nuvem**
     - **Nuvem (ou pública)**
         - Refere-se a serviços de nuvem oferecidos por provedores terceirizados (all-in-the-cloud).
@@ -38,3 +37,97 @@
         - Se parece com o modelo clássico de implementação de uma infraestrutura.
         - Não oferece maioria dos benefícios da nuvem frente aos que utilizam a nuvem pública.
         - Exemplo: uma empresa cria sua própria nuvem privada para atender a requisitos específicos de segurança e conformidade.
+
+## Seção 2: Vantagens da computação em nuvem
+
+- **Vantagens da computação em nuvem**
+    - Troque despesas de capital por despesas variáveis
+        - Investimento em datacenter com base em previsões;
+        - Transformação de custos fixos com tecnologia e infraestrutura em custos variáveis;
+        - Pague somente pelo que consumir.
+    - Grande economia de escala
+        - Devido ao uso agregado de todos os cliente, a AWS pode proporcionar grande economia de escala e rapassar os descontos para os clientes.
+    - Pare de tentar adivinhar a capacidade
+        - Com uma infraestrutura local, podemos cometer o equívoco de superestimar ou subestimar a capacidade, na nuvem temos escalabilidade sob demanda.
+    - Mais agilidade
+        - Adquirir novos recursos e expandir os serviços leva menos tempo e menos custo.
+    - Economia
+        - Pare de gastar dinheiro com a operação e manutenção de datacenters.
+    - Tenha alcance global em minutos
+        - Com apenas alguns cliques é possível distribuir sua aplicação ao redor do mundo, melhorando o tempo de resposta e a experiência do usuário.
+
+## Seção 3: Introdução à Amazon Web Services (AWS)
+
+- **O que são Web Services?**
+    - Um serviço web é qualquer software disponibilizado pela Internet que usa um formato padronizado, como XML ou JSON, para a solicitaçã e reposta de uma API
+- **O que é a AWS?**
+    - A AWS é uma plataforma de nuvem segura que ooferece um amplo conjunto de produtos globais baseados na nuvem.
+    - A AWS oferece acesso sob demanda a diversos recursos de computação de forma flexível.
+    - Você paga apenas pelos serviços individuais de que precisa, pelo tempo que os utilizar.
+    - Os serviços da AWS funcionam juntos como componentes básicos.
+- **O foco do curso serão os serviços de:**
+    - Computação
+    - Segurança, identidade e conformidade
+    - Serviços de armazenamento
+    - Serviços de banco de dados
+    - Serviços de redes e Entrega de Conteúdo
+    - Serviços de gerenciamento e Governança
+    - Gerenciamento de custos da AWS
+- **Três maneiras de acessar os serviços da AWS**
+    - Console de Gerenciamento da AWS
+        - Interface gráfica fácil de usar.
+    - Interface de linha de comando (CLI da AWS)
+        - Acesso a serviços por comandos ou scripts específicos.
+    - Kits de desenvolvimento de software (SDKs)
+        - Acesse serviços diretamente do seu código (como Java, Python e outros).
+
+## Seção 4: Mudança para a Nuvem AWS - AWS Cloud Adoption Framework (AWS CAF)
+
+- A adoção da nuvem não é instantânea, tecnologia, pessoas e processos devem estar alinhados para uma adoção bem sucedida da nuvem.
+- **AWS CAF**
+    - O AWS CAF oferece orientação e melhores práticas para ajudar as organizações a criar uma abordagem abrangente para acelerar a adoção bem-sucedida da nuvem.
+    - O AWS CAF está organizado em seis perspectivas.
+    - As perspectivas consistem em conjuntos de recursos.
+        - Negócios
+            - É necessário garantir que a TI esteja alinhada com as necessidades empresariais e que os investimentos em TI possam ser relacionados a resultados comerciais demonstráveis. (Gerentes de negócios, gerentes financeiros, proprietários de orçamento e partes interessadas da estratégia)
+            - Finanças de TI
+            - Estratégia de TI
+            - Realização de benefícios
+            - Gerenciamento de riscos empresariais
+        - Pessoas
+            - É necessário priorizar o treinamento, a equipe e as mudanças organizacionais para criar uma organização ágil. (Recursos humanos, equipe e gerentes de pessoas)
+            - Gerenciamento de recursos
+            - Gerenciamento de incentivos
+            - Gerenciamento de carreiras
+            - Gerenciamento de treinamento
+            - Gerenciamento de mudança organizacional
+        - Governança
+            - É necessário garantir que as habilidades e os processos alinhem a estrégia e as metas de TI com a estratégia e as metas empresariais para que a organização possa maximizar o valor empresarial de seu investimento em TI e minimizar os riscos empresariais. (CIO, gerentes de programas, arquitetos empresariais, analistas de negócios e gerentes de portfólio)
+            - Gerenciamento de portfólio
+            - Gerenciamento de programas e projetos
+            - Medição de desempenho empresarial
+            - Gerenciamento de licenças
+        - Plataforma
+            - É necessário compreender e comunicar a natureza dos sistemas de TI e seus relacionamentos. Devemos ter a capacidade de descrever a arquitetura do ambiente de estado de destino em detalhes. (CTO, gerentes de TI e arquitetos de soluções)
+            - Provisionamento de computação
+            - Provisionamento de rede
+            - Provisionamento de armazenamento
+            - Provisionamento de banco de dados
+            - Arquitetura de sistemas e soluções
+            - Desenvolvimento de aplicativos
+        - Segurança
+            - É necessário garantir que a organização atenda aos seus objetivos de segurança. (CISO, gerentes de segurança de TI e analistas de segurança de TI)
+            - Gerenciamento de identidade e estado
+            - Controle detectivo
+            - Segurança de infraestrutura
+            - Proteção de dados
+            - Resposta a incidentes
+        - Operações
+            - Alinhamos e apoiamos as operações da empresa e definimos como os negócios serão condizidos a cada dia, trimestre e ano. (Gerentes de operações de TI e gerentes de suporte de TI).
+            - Monitoramento de serviços
+            - Monitoramento da performance do aplicativo
+            - Gerenciamento do inventário de recursos
+            - Gerenciamento de versões/gerenciamento de alterações
+            - Relatórios e análises
+            - Continuidade dos negócios/Recuperação de desastres
+            - Catálogo de serviços de TI
